@@ -1,24 +1,13 @@
-# Formatjs::Rails
+# formatjs-rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/formatjs/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'formatjs-rails'
+货币、时间格式化
+例子:
+```javascript
+      new Date().format('yyyy年mm月dd日 hh时MM分ss秒') => '2016年32月27日 14时04分09秒'
+      200000.00.formatMoney(2,"$",",",".") => '$200,000.00'
+      digitUpperCase("5000002030.01") => '伍拾亿零贰仟零叁拾元壹分'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install formatjs-rails
 
 ## Usage
 Add the following to your gemfile:
