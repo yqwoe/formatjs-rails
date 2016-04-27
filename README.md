@@ -21,8 +21,15 @@ Or install it yourself as:
     $ gem install formatjs-rails
 
 ## Usage
+Add the following to your gemfile:
 
-TODO: Write usage instructions here
+```ruby
+gem 'formatjs-rails'
+```
+Add the following directive to your Javascript manifest file (application.js):
+```ruby
+//= require formatjs
+```
 
 ## Development
 
