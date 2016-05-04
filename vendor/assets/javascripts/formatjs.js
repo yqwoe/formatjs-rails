@@ -1,3 +1,7 @@
+
+document.write('<script src="jquery.base64.js"> </script>')
+document.write('<script src="tableExport.js"> </script>')
+
 Date.prototype.format = function(fmt) {
     var k, o;
     o = {

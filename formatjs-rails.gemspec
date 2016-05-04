@@ -5,7 +5,7 @@ require 'formatjs/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "formatjs-rails"
-  spec.version       = "0.3.0"
+  spec.version       = "0.4.0"
   spec.authors       = ["yqwoe"]
   spec.email         = ["yqwoe@live.cn"]
 

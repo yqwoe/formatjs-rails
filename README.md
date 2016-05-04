@@ -7,6 +7,9 @@
       200000.00.formatMoney(2,"$",",",".") => '$200,000.00'
       digitUpperCase("5000002030.01") => '伍拾亿零贰仟零叁拾元壹分'
 ```
+增加juqery导出excel
+tableExport.js
+jquery.base64.js
 
 
 ## Usage
